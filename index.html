@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Prototipo de sitio web desarrollado en colaboración entre DEV109 y DMA205.">
+  <meta name="author" content="Equipo DEV109">
+  <title>Nombre del Sitio - Prototipo</title>
+
+  <!-- Hoja de estilos global -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header>
+    <h1>Nombre del Sitio</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="html/acerca.html">Acerca</a></li>
+        <li><a href="html/servicios.html">Servicios</a></li>
+        <li><a href="html/contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section aria-labelledby="intro-title">
+      <h2 id="intro-title">Bienvenido al prototipo</h2>
+      <p>
+        Este es el prototipo inicial del sitio, construido a partir de la Arquitectura de la Información
+        y los wireframes proporcionados por el equipo de diseño DMA205.
+      </p>
+    </section>
+
+    <section aria-labelledby="highlight-title">
+      <h2 id="highlight-title">Sección destacada</h2>
+      <p>
+        Usa este espacio para mostrar el contenido principal que el diseñador haya definido como prioridad:
+        imagen hero, mensaje clave, llamada a la acción, etc.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="year"></span> Nombre del Sitio. Todos los derechos reservados.</p>
+  </footer>
+
+  <script>
+    // Año dinámico en el footer
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
