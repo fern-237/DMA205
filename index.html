@@ -28,6 +28,17 @@
       <p>Este es un prototipo de sitio web para el proyecto DMA205.</p>
       <button id="btnInfo">Mostrar Información</button>
       <p id="infoText" class="hidden">¡Gracias por visitar nuestro prototipo! Estamos trabajando duro para ofrecerte la mejor experiencia.</p>
+    
+      <form id="contactForm">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" required></textarea>
+    <button type="submit">Send Message</button>
+</form>
+    </section>
 
     </main>
 
@@ -39,6 +50,11 @@
     });
     // Año dinámico en el footer
     document.getElementById('year').textContent = new Date().getFullYear();
-  </script>
+    </script>
+    <script src="JavaScript/menu.js"></script>
+    <script src="JavaScript/contact.js"></script>
+    <script src="JavaScript/about.js"></script>
+    <script src="JavaScript/index.js"></script>
+    <script src="JavaScript/script.js"></script>
 </body>
 </html>
