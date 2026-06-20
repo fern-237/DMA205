@@ -1,5 +1,4 @@
-{
-    margin: 0;
+{ margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
@@ -49,6 +48,35 @@ main button {
     padding: 10px 20px;
     border-radius: 4px;
     cursor: pointer;
+
+    main button:hover {
+        background: var(--dark);
+    }
+    main button:active {
+        background: var(--primary);
+        transform: scale(0.98);
+    }
+    main button:focus {
+        outline: 2px solid var(--primary);
+        outline-offset: 2px;
+    }
+    main button:disabled {
+        background: var(--light);
+        color: var(--dark);
+        cursor: not-allowed;
+    }
+    main button:disabled:hover {
+        background: var(--light);
+        color: var(--dark);
+    }
+    main button:disabled:active {
+        background: var(--light);
+        color: var(--dark);
+        transform: none;
+    }
+    main button:disabled:focus {
+        outline: none;
+    }
 }
 
 footer {
@@ -66,23 +94,6 @@ footer p {
     font-size: 0.9rem;
 }
 
-.nav-menu {
-    list-style: none;
-    padding: 0;
-    margin: 10px 0 0;
-    display: flex;
-    justify-content: center;
-    gap: 15px;
-}
-
-.nav-menu a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-main {
-    max-width: var(--max-width);
-    margin: auto;
-    padding: 20px;
+.hidden {
+    display: none;
 }

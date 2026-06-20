@@ -3,3 +3,6 @@ escribi un parcheholder en cada carpeta
 porque github no permite las carpetas vacias
 escribi varias cosas en todos los placeholders de este programa.
 Este es un proyecto hecho a las prisas pero creo que esta quedando decente.
+estoy dejando en blanco la parte donde deberia escribir el nombre de mi equipo proyecto pero
+lastimosamente yo no tube un equipo antes para este proyecto y mi equipo actual
+no tiene un nombre establacido
