@@ -1,0 +1,5 @@
+Hago este archivo como prueba del uso del placeholder
+escribi un parcheholder en cada carpeta
+porque github no permite las carpetas vacias
+escribi varias cosas en todos los placeholders de este programa.
+Este es un proyecto hecho a las prisas pero creo que esta quedando decente.
